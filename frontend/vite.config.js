@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://ai-assisted-journal-finder-web1.onrender.com",
+        target: "http://localhost:5000",
         changeOrigin: true,
       },
     },
